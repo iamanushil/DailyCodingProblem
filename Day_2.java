@@ -21,8 +21,8 @@ import java.lang.*;
 class Day_2_Alt {
     
     // Method 1
-    // Time: 
-    // Space: 
+    // Time: O(n)
+    // Space: O(n)
     public static void solve(int[] arr, int size) {
         
         int product = 1;
