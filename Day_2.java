@@ -18,11 +18,20 @@ import java.io.*;
 import java.lang.*;
 
 //
-class Day_2_Alt {
+class Day_2 {
+
+    // Method 2:
+    // Time:
+    // Space: 
+    public static void x(int[] arr, int size) {
+        
+        printSolution(arr, size);
+    }
     
-    // Method 1
+    // Method 1:
     // Time: O(n)
     // Space: O(n)
+    // It calculates the product of the array and then divide the product by that index data
     public static void solve(int[] arr, int size) {
         
         int product = 1;
@@ -72,7 +81,6 @@ class Day_2_Alt {
             }
             
             // Method 1:
-            // It calculates the product of the array and then divide the product by that index data
             solve(arr, sizeOfArray); 
 
             // Methode 2:
